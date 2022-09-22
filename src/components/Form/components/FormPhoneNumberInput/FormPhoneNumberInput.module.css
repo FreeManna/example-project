@@ -1,0 +1,101 @@
+.container {
+    height: 50px;
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .nameInput {
+    width: 100%;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  .field {
+    height:40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-right: 10px;
+    padding-left:5px;
+    position: relative;
+  }
+
+.button{
+    height:100%;
+    width:32px;
+    padding:0;
+    margin:0;
+    border: none;
+    background-color: white;
+}
+
+.icon{
+    width:24px;
+    height:20px;
+}
+
+.phoneCode{
+    padding:0 4px;
+}
+
+.input{
+    height:100%;
+    padding:0;
+    margin:0;
+    border:0;
+    outline: none;
+    display:flex;
+    align-items: center;
+    font-size:1rem;
+}
+
+.input::-webkit-input-placeholder {
+    font-size: 1rem;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .error {
+    border: 1px solid #c40000;
+  }
+  
+  .required {
+    border: 1px solid #ede500;
+  }
+
+.list{
+    margin:0;
+    padding:0;
+    position: absolute;
+    height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    width:100%;
+    top:45px;
+    left:0;
+}
+
+.listItem{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    text-align: left;
+    padding:5 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.listItem:hover{
+    background-color:#e7eaf6;
+}
+
+.listItem:active{
+    background-color: #a2a8d3;
+}
+
+.container p{
+    margin: 0;
+}
